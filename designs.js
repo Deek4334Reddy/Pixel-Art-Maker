@@ -26,11 +26,15 @@ $('#pixel_canvas').click(function(e) {
   let color = $('#colorPicker').val();
   $(e.target).css('background-color', color);//
 });
-
-
-
-
 // previous used eventlistner on click-- changing it to submit eventlistner
+// $(document).ready(function(){
+//   $('#submit-btn').click(function(evt) { //event-listner for submit-btn on click
+//     // let height, width;
+//     var width = $('#input_width').val();
+//     var height = $('#input_height').val();
+//     evt.preventDefault();
+//     makeGrid(width, height);
+//   });
 // $(document).ready(function(){
 //   $('#submit-btn').click(function(evt) { //event-listner for submit-btn on click
 //     // let height, width;
