@@ -30,7 +30,7 @@ $('#pixel_canvas').click(function(e) {
 
 
 
-// previous used eventlistner on click
+// previous used eventlistner on click-- changing it to submit eventlistner
 // $(document).ready(function(){
 //   $('#submit-btn').click(function(evt) { //event-listner for submit-btn on click
 //     // let height, width;
