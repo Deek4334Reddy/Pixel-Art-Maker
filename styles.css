@@ -44,3 +44,18 @@ input[type=number] {
     margin-left:10px;
     margin-right:10px;
 }
+/*.grid td {
+    cursor:pointer;
+    width:30px;
+    height:30px;
+    border:1px solid #ccc;
+    text-align:center;
+    font-family:sans-serif;
+    font-size:9px;
+}
+.grid td.clicked {
+    background-color:black;
+    font-weight:bold;
+    color:white;
+}
+*/
