@@ -3,9 +3,9 @@ const colorPicker = document.getElementById("colorPicker");
 var table = document.getElementById("pixel_canvas");
 
 function makeGrid(width, height) {
-    for (let i = 0; i < height; i++) { //Defining the height of the grid
-        const row = table.insertRow(i);
-        for (let j = 0; j < width; j++) { //Defining the width of the grid
+    for (let i = 0; i < height; i++) { //Loop to insert the grid 
+        const row = table.insertRow(i); //insertRow() method inserts the new row(s) at the specified index in the table.
+        for (let j = 0; j < width; j++) {
             const cell = row.insertCell(j);
             cell.onclick = () => { //event listener for onclick
                 cell.style.backgroundColor = colorPicker.value; //Setting the choosen color value to the grid
